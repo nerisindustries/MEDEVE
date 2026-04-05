@@ -22,20 +22,12 @@ $lojinha= [
 
 ];
 
-echo $lojinha[0]["id"]."<br>";
-echo $lojinha[0]["nome"]."<br>";
-echo $lojinha[0]["valor"]."<br>";   
-echo $lojinha[0]["quantidade"]."<br>";
-echo "-----------------------------<br>";
-echo $lojinha[1]["id"]."<br>";
-echo $lojinha[1]["nome"]."<br>";
-echo $lojinha[1]["valor"]."<br>";   
-echo $lojinha[1]["quantidade"]."<br>";
-echo "-----------------------------<br>";
-echo $lojinha[2]["id"]."<br>";
-echo $lojinha[2]["nome"]."<br>";        
-echo $lojinha[2]["valor"]."<br>";
-echo $lojinha[2]["quantidade"]."<br>";
+foreach($lojinha as $produto){
+    echo "ID: " . $produto["id"]."<br>";
+    echo "Nome: " . $produto["nome"]."<br>";
+    echo "Valor: " . $produto["valor"]."<br>";   
+    echo "Quantidade: " . $produto["quantidade"]."<br>";   
+    echo"-----------------------------<br>";
 
-
+}
 ?>

@@ -17,3 +17,7 @@ Podemos dizer que é oque categoriza o usuário , e assim sabe qual dos ifs deve
 Exercício 5 da diferença entre controle visual e controle lógico.......
 controle lógico: è os egurança por trás trabalha nos basttidores e é omais importante pois através do auth impede a navegção indevida por páginas por usuários não cadastrados.
 controle visual:è oque o usuário enxerga, é o botão sumindo o texto sendo alterado, ou seja é a parte visual e "bonitinha" do auth.php
+
+
+AULA-6
+ex1- è oque "facilita" a vida do progaramador pois ele é um framework voltado para a parte visual de um sistema, ou seja ele nada mais é do que o responsável pelo front-end de um sistema!

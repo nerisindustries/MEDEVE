@@ -19,7 +19,7 @@ contas/cadastrar.phpCadastrar Conta</a>
 </li>
 <?php } ?>
 
-<?php if ($perfil == "proprietario") { ?>
+<?php if ($perfil == "Adimnistrador") { ?>
 <li class="nav-item">
 contas/listar.phpTodas as Contas</a>
 </li>

@@ -1,9 +1,4 @@
-<?php
-include "../../config/config.php";
-include "../../includes/auth.php";
-$perfil = $_SESSION["perfil"];
-include "../../includes/menu.php";
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

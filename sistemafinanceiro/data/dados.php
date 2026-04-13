@@ -23,7 +23,17 @@ $usuarios=[
 
 "perfil"=>"Adimnistrador" 
 
+],
+
+[
+"usuario"=>"financias",
+"senha"=>"2526",
+
+"perfil"=>"Financeiro" 
+
 ]
+
+
 
 
 

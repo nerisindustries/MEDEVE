@@ -30,6 +30,14 @@ $perfil = $_SESSION["perfil"] ?? "";
 <li class="nav-item">
 <a class="nav-link" href="usuarios/listar.php">Usuários</a>
 </li>
+
+<?php } ?>
+<?php if ($perfil == "Financeiro") { ?>
+<li class="nav-item">
+<a class="nav-link" href="contas/listar.php">Relatórios</a>
+</li>
+
+
 <?php } ?>
 <li class="nav-item">
 <a class="nav-link" href="../logout.php">Sair</a>

@@ -1,4 +1,17 @@
 <?php
+
+include "../confing/config.php"; 
+
+
+include "../includes/auth.php"; 
+
+
+include "../includes/menu.php"; 
+?>
+
+
+
+<?php
 $perfil = $_SESSION["perfil"];
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">

@@ -8,14 +8,14 @@ $usuarios=[
 
 "perfil"=>"cliente" 
 
-]
+],
 [
 "usuario"=>"empresa",
 "senha"=>"2526",
 
 "perfil"=>"empresa" 
 
-]
+],
 
 [
 "usuario"=>"admin",
@@ -33,6 +33,7 @@ $usuarios=[
 
 
 
+
 ]
 
 
@@ -42,7 +43,6 @@ $usuarios=[
 
 
 
-<a href="../logout.php">Sair</a>
 
 
 

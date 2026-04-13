@@ -1,12 +1,10 @@
 <?php
 
-include "../config/config.php"; 
-
-
-include "../includes/auth.php"; 
-
-
-include "../includes/menu.php"; 
+?php
+include "../config/config.php";  
+include "../includes/auth.php";  
+include "../includes/menu.php";   
+?> 
 ?>
 
 

@@ -1,3 +1,6 @@
+<?php
+$perfil = $_SESSION["perfil"];
+?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
 <div class="container">
 #Sistema Financeiro</a>

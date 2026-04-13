@@ -24,19 +24,20 @@ contas/cadastrar.phpCadastrar Conta</a>
 </li>
 <?php } ?>
 
-
-<?php if($perfil=="Adimnistrador")
-
+<?php if ($perfil == "proprietario") { ?>
 <li class="nav-item">
-contas/listar.phpMinhas Contas</a>
+contas/listar.phpTodas as Contas</a>
+</li>
+<li class="nav-item">
+usuarios/listar.phpUsuários</a>
 </li>
 
-<li class=nav-item">
-../logut.phpSair</a>
+<?php } ?>
+<li class="nav-item">
+../logout.phpSair</a>
 </li>
 </ul>
 </div>
-</nav>
 
 
 ?>

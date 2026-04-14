@@ -1,57 +1,6 @@
 <?php
 
-$usuarios=[
-
-[
-"usuario"=>"cliente",
-"senha"=>"2526",
-
-"perfil"=>"cliente" 
-
-],
-[
-"usuario"=>"empresa",
-"senha"=>"2526",
-
-"perfil"=>"empresa" 
-
-],
-
-[
-"usuario"=>"admin",
-"senha"=>"2526",
-
-"perfil"=>"Adimnistrador" 
-
-],
-
-[
-"usuario"=>"financias",
-"senha"=>"2526",
-
-"perfil"=>"Financeiro" 
-
-]
-
-
-
-
-
-
-
-
-
-
-
-
-]
-
-
-
-
-
-
-
+$usuarios = [["usuario" => "cliente", "senha" => "123", "perfil" => "cliente"], ["usuario" => "empresa", "senha" => "123", "perfil" => "empresa"], ["usuario" => "admin", "senha" => "123", "perfil" => "administrador"], ["usuario" => "financas", "senha" => "123", "perfil" => "financeiro"]];
 
 
 

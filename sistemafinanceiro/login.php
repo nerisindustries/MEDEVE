@@ -37,8 +37,8 @@ $erro = "Usuário ou senha inválidos!";
 <label class="form-label">Senha</label>
 <input name="senha" type="password" class="form-control">
 </div>
-<button class="btn btn-primary" >Enviar</button>
-
+<button class="btn btn-primary  bg-danger" >Enviar</button>
+<img src="" alt="">
 </form>
 </body>
 </html>

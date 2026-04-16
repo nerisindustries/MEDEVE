@@ -9,7 +9,7 @@ include "../../includes/menu.php";
 <h2>Lista de contas</h2>
     <table class="table table-bordered table-striped">
 
-<thead class="table-primary">
+<thead class="table-primary table-danger text-ligth">
 <tr>
 <th>Nome</th>
 <th>Valor</th>

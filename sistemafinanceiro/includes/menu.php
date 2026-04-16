@@ -4,9 +4,9 @@
 <?php
 $perfil = $_SESSION["perfil"] ?? "";
 ?>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-4">
     <div class="container">
-        <a class="navbar-brand" href="dashboard.php">#Sistema Financeiro</a>
+        <a class="navbar-brand" href="dashboard.php">Finanças  oficina  FUEL TECH </a>
         <ul class="navbar-nav ms-auto">
 
             <li class="nav-item">

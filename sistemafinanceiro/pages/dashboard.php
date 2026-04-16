@@ -3,8 +3,8 @@ include "../config/config.php";
 include "../includes/auth.php";
 include "../includes/header.php";
 include "../includes/menu.php";
-?>
 
+?>
 
 
 
@@ -30,12 +30,12 @@ elseif ($_SESSION["perfil"] == "empresa") {
 } 
 elseif ($_SESSION["perfil"] == "adiministrador") {
     echo "<h3> Bem-vindo! Você está no Painel do Adiministrador.</h3>";
-}
+    
+    }
  
 elseif ($_SESSION["perfil"] == "financeiro") {
     echo "<h3> Bem-vindo! Você está na Área financeira.</h3>";
 }
-
 
 
 ?>

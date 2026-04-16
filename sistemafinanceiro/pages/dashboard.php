@@ -45,7 +45,7 @@ elseif ($_SESSION["perfil"] == "financeiro") {
         
         <div class="col-md-4">
             <div class="card text-white bg-success mb-3">
-                <div class="card-header">Contas Pagas</div>
+                <div class="card-header">Contas Pagas😎</div>
                 <div class="card-body">
                     <h5 class="card-title">R$ 1.500,00</h5>
                     <p class="card-text">Total liquidado este mês.</p>
@@ -56,7 +56,7 @@ elseif ($_SESSION["perfil"] == "financeiro") {
         
         <div class="col-md-4">
             <div class="card text-white bg-danger mb-3">
-                <div class="card-header">Contas a Pagar</div>
+                <div class="card-header">Contas a Pagar🚨</div>
                 <div class="card-body">
                     <h5 class="card-title">R$ 850,00</h5>
                     <p class="card-text">Previsão de saída</p>
@@ -67,7 +67,7 @@ elseif ($_SESSION["perfil"] == "financeiro") {
         
         <div class="col-md-4">
             <div class="card text-white bg-primary mb-3">
-                <div class="card-header">Contas a Receber</div>
+                <div class="card-header">Contas a Receber😁</div>
                 <div class="card-body">
                     <h5 class="card-title">R$ 3.200,00</h5>
                     <p class="card-text">Previsão de entrada em caixa</p>

@@ -1,4 +1,6 @@
 
+ 
+
 <?php
 $perfil = $_SESSION["perfil"] ?? "";
 ?>
@@ -15,6 +17,9 @@ $perfil = $_SESSION["perfil"] ?? "";
                 <li class="nav-item">
                     <a class="nav-link" href="contas/listar.php">Minhas Contas</a>
                 </li>
+                 <li class="nav-item">
+                <a class="nav-link" href="../logout.php">Sair</a>
+            </li>
             <?php } ?>
 
             <?php if ($perfil == "empresa") { ?>
@@ -24,6 +29,9 @@ $perfil = $_SESSION["perfil"] ?? "";
                 <li class="nav-item">
                     <a class="nav-link" href="contas/cadastrar.php">Cadastrar Conta</a>
                 </li>
+                 <li class="nav-item">
+                <a class="nav-link" href="../logout.php">Sair</a>
+            </li>
             <?php } ?>
 
             <?php if ($perfil == "administrador") { ?>
@@ -33,17 +41,22 @@ $perfil = $_SESSION["perfil"] ?? "";
                 <li class="nav-item">
                     <a class="nav-link" href="usuarios/listar.php">Usuários</a>
                 </li>
+                 <li class="nav-item">
+                <a class="nav-link" href="../logout.php">Sair</a>
+            </li>
             <?php } ?>
 
             <?php if ($perfil == "financeiro") { ?>
                 <li class="nav-item">
                     <a class="nav-link" href="contas/listar.php">Relatórios</a>
                 </li>
-            <?php } ?>
-
-            <li class="nav-item">
+                 <li class="nav-item">
                 <a class="nav-link" href="../logout.php">Sair</a>
             </li>
+            <?php } ?>
+
+
+        
 
         </ul>
     </div>
